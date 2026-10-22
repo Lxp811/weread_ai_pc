@@ -1,0 +1,20 @@
+# 打包产物（体积大，走 GitHub Releases，不进 git）
+.build/
+build/
+dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# 运行时配置（内含 DPAPI 加密的 API Key，不进 git）
+config.json
+*.tmp
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
